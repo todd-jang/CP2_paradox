@@ -51,3 +51,15 @@ The ML model predicts "roundness" based on geometric and derived features.
 Prediction quality is summarized by Mean Squared Error.
 Volume (V), n3, and r are the most important predictive features.
 To get detailed prediction results, print or save y_pred after running the regression script.
+
+Miscellounius
+설명:
+
+Ridge와 RandomForest 두 모델을 교차검증과 하이퍼파라미터 튜닝(GridSearchCV)으로 성능을 비교합니다.
+각 모델의 최적 하이퍼파라미터, 교차검증 점수, 테스트셋 MSE를 함께 출력합니다.
+추가 모델이나 파라미터를 넣고 싶으시면 models 딕셔너리에 추가만 하시면 됩니다!
+
+참고:
+roc_auc_by_train_ratio.py결과 출력 roc_auc_by_train_ratio.png에서 
+분류 임계값(threshold)이나 모델, feature selection 등은 목적에 맞게 조정 가능합니다.
+다르게 보고 싶은 학습 비율이 있다면 train_sizes에 리스트로 추가하시면 됩니다!
