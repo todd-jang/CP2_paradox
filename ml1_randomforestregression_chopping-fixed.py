@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 df = pd.read_csv('chopping.csv', encoding='utf-8-sig')
 
 # Select features and target
-features = ['a', 'b', 'c', 'n_xy', 'n_xz', 'n_yz', 'c/a', 'b/a', 'n3', 'V', 'r']
+features = ['a', 'b', 'c', 'n3', 'V', 'r']
 target = 'roundness'
 
 # Drop rows with missing values in either features or target
