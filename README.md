@@ -43,3 +43,11 @@ The tallest bars = most predictive features.
 5. Next Steps
 You can try removing low-importance features and retraining to see if accuracy stays high (for simpler models).
 Investigate why some features are more important—this could reveal new scientific or engineering insights.
+
+
+Summary:
+
+The ML model predicts "roundness" based on geometric and derived features.
+Prediction quality is summarized by Mean Squared Error.
+Volume (V), n3, and r are the most important predictive features.
+To get detailed prediction results, print or save y_pred after running the regression script.
