@@ -1,3 +1,7 @@
+바닷가 조약돌이 수많은 파도와 조석의 바닷물에 서로 부딪히며 굴려 일정한 모양(납작하고 가로 세로비율이 수렴한다는)으로 이른다고 하는 인사이트를 준 논문에 
+영향을 받아 찾아보다 얻은 article에 대해 어떤 시사점이 있을까 하여 간단히 탐구하게 되었다 
+
+
 # CP2_paradox
 
 In 2014 the paradoxical thesis(file.pdf) approved which was asserted in 2012.
