@@ -63,3 +63,7 @@ Ridge와 RandomForest 두 모델을 교차검증과 하이퍼파라미터 튜닝
 roc_auc_by_train_ratio.py결과 출력 roc_auc_by_train_ratio.png에서 
 분류 임계값(threshold)이나 모델, feature selection 등은 목적에 맞게 조정 가능합니다.
 다르게 보고 싶은 학습 비율이 있다면 train_sizes에 리스트로 추가하시면 됩니다!
+
+
+roc_auc_rf_vs_dex.png로 저장된 roc_auc_rf_vs_dex.py실행시
+Deep NN 기반 binary classifier적용 결과임
