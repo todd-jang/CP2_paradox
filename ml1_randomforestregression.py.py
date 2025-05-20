@@ -27,3 +27,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f'Mean Squared Error: {mse:.4f}')
+
+
+for actual, pred in zip(y_test, y_pred):
+    print(f"Actual: {actual:.3f}, Predicted: {pred:.3f}")
